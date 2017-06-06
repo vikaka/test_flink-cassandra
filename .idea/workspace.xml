@@ -26,10 +26,10 @@
       <file leaf-file-name="Job.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/org/example/Job.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="26" column="48" lean-forward="true" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+            <state relative-caret-position="275">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
-                <element signature="e#21#93#0" expanded="true" />
+                <element signature="e#21#60#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -737,12 +737,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1496773467181</updated>
-      <workItem from="1496773475770" duration="5410000" />
+      <workItem from="1496773475770" duration="6944000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5410000" />
+    <option name="totallyTimeSpent" value="6944000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -819,10 +819,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/org/example/Job.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="26" column="48" lean-forward="true" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+        <state relative-caret-position="275">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <element signature="e#21#93#0" expanded="true" />
+            <element signature="e#21#60#0" expanded="true" />
           </folding>
         </state>
       </provider>
