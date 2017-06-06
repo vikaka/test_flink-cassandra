@@ -5,10 +5,10 @@ import org.apache.flink.streaming.util.serialization.SimpleStringSchema
 import java.util.Properties
 
 import com.datastax.driver.core.Cluster
-
+import org.apache.flink.api.scala._
 import collection.JavaConverters._
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment
-import org.apache.flink.streaming.connectors.cassandra.{CassandraPojoSink, CassandraSink, CassandraTupleSink, ClusterBuilder}
+import org.apache.flink.streaming.connectors.cassandra.{CassandraSink, ClusterBuilder}
 
 
 object Job {
@@ -23,7 +23,7 @@ object Job {
 
     val INSERT = "INSERT INTO dev.emp (test_text) VALUES (?)"
 
-    val list = List(new Tuple1("from flink with love"), new Tuple1("testing from flink"))
+    val list = List(Tuple1("from flink with love"), Tuple1("testing from flink"))
     val source = env.fromCollection(list.asJava)
 
       CassandraSink.addSink(source)
